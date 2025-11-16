@@ -16,7 +16,7 @@
 .navbar-brand img {
   width: 55px;
   height: 55px;
-  border-radius: 10px;
+  border-radius: 50px;
   object-fit: cover;
 }
 
@@ -571,3 +571,4 @@
     font-size: 13px;
   }
 }
+
