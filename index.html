@@ -11,50 +11,100 @@
     <title>سما مصاعد الخليج</title>
 </head>
 <body> 
-    
-    <nav class="navbar navbar-expand-lg  position-fixed w-100">
-  <div class="container-fluid d-flex justify-content-between align-items-center">
+   <nav class="navbar navbar-expand-lg position-fixed w-100">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <!-- Logo for MOBILE (Left, always visible) -->
+        <a class="navbar-brand d-lg-none d-flex align-items-center gap-2 me-auto" href="#" style="margin-left: 9%;">
+          <img src="images/049ea074-8410-4e0d-92c8-15f7ed3e1e54.jfif" alt="Logo" style="height: 50px"/>
+          <div class="brand-text d-flex flex-column">
+            <span style="font-weight: 700; font-size: 16px"
+              >مؤسسة سماء مصاعد الخليج</span
+            >
+            <small class="text-muted" style="opacity: 0.9">للمصاعد</small>
+          </div>
+        </a>
 
+        <!-- Menu Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Menu Button -->
-    <button
-      class="navbar-toggler order-2"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <!-- Links + Desktop Logo -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <!-- Logo for DESKTOP (right inside navbar) -->
+          <a
+            class="navbar-brand d-none d-lg-flex align-items-center gap-2 ms-auto"
+            href="#"
+          >
+            <img
+              src="images/049ea074-8410-4e0d-92c8-15f7ed3e1e54.jfif"
+              alt="Logo"
+              style="height: 60px"
+            />
+            <div class="brand-text d-flex flex-column">
+              <span style="font-size: 22px; font-weight: 700"
+                >مؤسسة سماء مصاعد الخليج</span
+              >
+              <p
+                class="text-muted"
+                style="opacity: 0.9; font-size: 20px; margin: 0"
+              >
+                للمصاعد
+              </p>
+            </div>
+          </a>
 
-    <!-- Links + Desktop Logo -->
-    <div class="collapse navbar-collapse order-3" id="navbarSupportedContent">
-
-      <!-- Logo for DESKTOP (left) -->
-      <a class="navbar-brand d-none d-lg-flex align-items-center gap-2 ms-auto" href="#">
-        <!-- <img src="images/2d5627f9-813c-4f0a-9588-c0de13888eda.jfif" alt="Logo" /> -->
-        <div class="brand-text d-flex flex-column">
-          <span style="font-size:22px; font-weight:700;">مؤسسة سماء مصاعد الخليج </span>
-          <p class="text-muted" style="opacity: 0.9; font-size:20px; margin:0;">للمصاعد</p>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home" style="color: #fff"
+                >الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" style="color: #fff">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services" style="color: #fff"
+                >خدماتنا</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photos" style="color: #fff"
+                >معرض أعمالنا</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#address" style="color: #fff">موقعنا</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#contact"
+                style="
+                  color: #fff;
+                  background-color: rgba(255, 0, 0, 0.8);
+                  border-radius: 5px;
+                "
+                >تواصل معنا</a
+              >
+            </li>
+          </ul>
         </div>
-      </a>
-
-     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item"><a class="nav-link active" href="#home" style="color: #fff;">الرئيسية</a></li>
-      <li class="nav-item"><a class="nav-link" href="#about" style="color: #fff;">من نحن</a></li>
-      <li class="nav-item"><a class="nav-link" href="#services" style="color: #fff;">خدماتنا</a></li>
-      <li class="nav-item"><a class="nav-link" href="#photos" style="color: #fff;">معرض أعمالنا</a></li>
-      <li class="nav-item"><a class="nav-link" href="#address" style="color: #fff;">موقعنا</a></li>
-            <li class="nav-item"><a class="nav-link" href="#address" style="color: #fff; background-color: rgba(255, 0, 0, 0.803);">تواصل معنا</a></li>
-    </ul>
-
-      
-    </div>
-
-  </div>
-   </nav>
+      </div>
+    </nav>
 
 
 <section class="home">
@@ -269,4 +319,5 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
